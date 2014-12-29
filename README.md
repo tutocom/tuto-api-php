@@ -28,7 +28,7 @@ Créer/Editer votre fichier composer.json
 ```
 {
     "require": {
-        "tutocom/tuto-api-php" : "0.2.0"
+        "tutocom/tuto-api-php" : "0.2.*"
     }
 }
 ```
