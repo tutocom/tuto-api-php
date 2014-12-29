@@ -28,7 +28,7 @@ Créer/Editer votre fichier composer.json
 ```
 {
     "require": {
-        "tutocom/tuto-api-php" : "0.2.0"
+        "tutocom/tuto-api-php" : "0.2.*"
     }
 }
 ```
@@ -81,3 +81,4 @@ $stats = $client->contributor->statistics('sales');
 ## Support
 
 Contacter le support sur http://aide.tuto.com
+Ou créer une [issue](https://github.com/tutocom/tuto-api-php/issues)
