@@ -81,3 +81,4 @@ $stats = $client->contributor->statistics('sales');
 ## Support
 
 Contacter le support sur http://aide.tuto.com
+Ou créer une [issue](https://github.com/tutocom/tuto-api-php/issues)
