@@ -106,8 +106,7 @@ class Client
                     array(
                 'auth' => array(
                     $this->apiUsername,
-                    $this->apiSecret,
-                    'digest'
+                    $this->apiSecret
                 )
             ));
         }
