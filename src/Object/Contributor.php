@@ -10,9 +10,22 @@ class Contributor
      */
     public $statistics;
     
+    /**
+     *
+     * @var \Tuto\Client
+     */
+    private $master;
+    
+    /**
+     *
+     * @var string 
+     */
+    private $endpoint = 'contributor';
+    
     public function __construct(\Tuto\Client $master)
     {
-        $this->statistics = new Contributor\Statistics($master);
+        $this->master = $master;
+        $this->statistics = new Contributor\Statistics($this->master);
     }
     
     /**
@@ -33,6 +46,15 @@ class Contributor
         {
             return $this->statistics->common();
         }
+    }
+    
+    /**
+     * @return mixed
+     */
+    public function infos()
+    {
+        $_params = array();
+        return $this->master->call('get',$this->endpoint.'/infos',$_params);
     }
 
 }
