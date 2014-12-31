@@ -41,7 +41,7 @@ $ composer install
 
 Ajouter l'autoloader Composer à votre fichier index.php
 ```php
-require_once './vendor/autoload.php';
+require_once __DIR__.'/vendor/autoload.php';
 ```
 
 ## Utilisation
@@ -52,6 +52,15 @@ $client->setCredentials(API_LOGIN, API_SECRET);
 ```
 
 ## Exemples
+
+
+### Informations du compte
+
+```php
+$infos = $client->contributor->infos();
+```
+
+### Statistiques
 
 Récupération des statistiques relatives au compte
 ```php
