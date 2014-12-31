@@ -149,6 +149,12 @@ class Client
         return $this->response->json();
     }
 
+    /**
+     * 
+     * @param string error
+     * @return \Tuto\class
+     * @throws Tuto\Tuto_Error
+     */
     private function castError($result)
     {
         if($result['error'] == 'error')
