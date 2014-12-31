@@ -3,7 +3,7 @@
     "description": "wrapper for Tuto.com API",
     "type": "library",
     "homepage": "https://api.tuto.com/docs/",
-    "version": "0.2.0",
+    "version": "0.2.3",
     "license": "MIT",
     "authors": [
         {
