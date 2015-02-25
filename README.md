@@ -1,5 +1,8 @@
 # Tuto PHP Wrapper
 
+[![Latest Stable Version](https://poser.pugx.org/tutocom/tuto-api-php/v/stable.svg)](https://packagist.org/packages/tutocom/tuto-api-php)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/tutocom/tuto-api-php/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/tutocom/tuto-api-php/?branch=master)
+
 ## Introduction
 
 Fournis une libairie PHP pour la derniere version de l'[API Tuto.com](https://api.tuto.com/docs).
